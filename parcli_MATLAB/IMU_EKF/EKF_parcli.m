@@ -19,10 +19,10 @@ time_series = 0:dt:(total_time - dt);
 % Extract true states from data
 positions_data = state_data(1:num_steps, 5:7)';
 % velocities_data = state_data(1:num_steps, 25:27)';
-velocities_data = state_data(1:num_steps, 24:26)';
+velocities_data = state_data(1:num_steps, 25:27)';
 quaternions_data = state_data(1:num_steps, 1:4)';
 % angular_velocity_true = state_data(1:num_steps, [23, 24, 25])';
-angular_velocity_true = state_data(1:num_steps, 21:23)';
+angular_velocity_true = state_data(1:num_steps, 22:24)';
 
 % % Plot angular velocity over time
 % figure;
